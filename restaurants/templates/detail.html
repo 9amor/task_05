@@ -3,8 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Detail</title>
+        <h1>{{restaurant.name}}</h1>
+        <h3>{{restaurant.description}}</h3>
+        <h4>{{restaurant.opening_time}}</h4>
+        <h4>{{restaurant.closing_time}}</h4>
     </head>
     <body>
+
+    	<h1><a href="{% url 'restaurant-list' %}"> Back to the list </a></h1>
         
     </body>
 </html>
